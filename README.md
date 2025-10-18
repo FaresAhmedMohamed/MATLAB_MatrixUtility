@@ -28,23 +28,31 @@ The utility includes a class 'MatrixUtility" with static methods that perform th
 The following code can be used directly in the command window to test the utility:
 
 A = [1 3 5; 7 0 3; 1 2 8];
+
 B = [4 5 4; 9 6 8; 5 9 3];
+
 k = 2;
 
 % Addition
+
 C = MatrixUtility.add(A, B);
 
 % Subtraction
+
 D = MatrixUtility.subtract(A, B);
 
 % Scalar Multiplication
+
 E = MatrixUtility.scalarMultiply(A, k);
 
 % Transposition
+
 F = MatrixUtility.transpose(A);
 
 % Inversion
+
 G = MatrixUtility.inverse(A);
 
 % Eigenvalue Calculation
+
 eigVals = MatrixUtility.eigenvalues(A);
